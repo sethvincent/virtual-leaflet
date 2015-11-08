@@ -1,0 +1,29 @@
+{
+  "name": "virtual-leaflet",
+  "version": "1.0.0",
+  "description": "A virtual-dom widget that provides a leaflet map.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "budo": "^6.0.1",
+    "virtual-dom": "^2.1.1",
+    "virtual-raf": "^2.0.3"
+  },
+  "scripts": {
+    "start": "budo example.js --live",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/virtual-widget.git"
+  },
+  "author": "sethvincent <sethvincent@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sethvincent/virtual-widget/issues"
+  },
+  "homepage": "https://github.com/sethvincent/virtual-widget#readme"
+}
