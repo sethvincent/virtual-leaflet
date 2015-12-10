@@ -6,7 +6,9 @@
   "directories": {
     "example": "example"
   },
-  "dependencies": {},
+  "dependencies": {
+    "leaflet": "^0.7.7"
+  },
   "devDependencies": {
     "budo": "^6.0.1",
     "virtual-dom": "^2.1.1",
